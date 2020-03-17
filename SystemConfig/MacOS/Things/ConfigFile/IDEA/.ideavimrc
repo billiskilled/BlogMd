@@ -1,0 +1,15 @@
+set nu
+#set relativenumber
+
+set surround
+set commentary
+
+let mapleader = "\"
+#nmap <leader><leader>s :action KJumpAction<cr>
+#nmap <leader><leader>w :action KJumpAction.Word0<cr>
+#nmap <leader><leader>l :action KJumpAction.Line<cr>
+set ideajoin
+
+set keep-english-in-normal-and-restore-in-insert
+
+set easymotion

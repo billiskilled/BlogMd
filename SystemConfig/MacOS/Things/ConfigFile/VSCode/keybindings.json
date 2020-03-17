@@ -1,0 +1,87 @@
+// 将键绑定放在此文件中以覆盖默认值auto[]
+[
+    {
+        "key": "ctrl+cmd+alt+w",
+        "command": "workbench.action.closeAllEditors"
+    },
+    {
+        "key": "cmd+k cmd+w",
+        "command": "-workbench.action.closeAllEditors"
+    },
+    {
+        "key": "ctrl+cmd+alt+o",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "alt+cmd+t",
+        "command": "-workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "ctrl+cmd+alt+e",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+cmd+alt+v",
+        "command": "open-in-vim.open"
+    },
+    {
+        "key": "ctrl+cmd+alt+t",
+        "command": "leetcode.testSolution"
+    },
+    {
+        "key": "ctrl+cmd+alt+s",
+        "command": "leetcode.submitSolution"
+    },
+    {
+        "key": "ctrl+cmd+alt+z",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
+        "key": "cmd+k z",
+        "command": "-workbench.action.toggleZenMode"
+    },
+    {
+        "key": "ctrl+cmd+alt+n",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "ctrl+cmd+alt+m",
+        "command": "code-runner.stop"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "-code-runner.stop"
+    },
+    
+    {
+        "key": "ctrl+cmd+alt+r",
+        "command": "git.revertSelectedRanges"
+    },
+    {
+        "key": "ctrl+cmd+alt+a",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "ctrl+cmd+alt+f",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
+
+    {
+        "key": "ctrl+n",
+        "command": "-extension.vim_ctrl+n",
+        "when": "editorTextFocus && vim.active && vim.use<C-n> && !inDebugRepl || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+    },
+
+    {
+        "key": "ctrl+alt+cmd+q",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "-workbench.view.explorer"
+    }
+]

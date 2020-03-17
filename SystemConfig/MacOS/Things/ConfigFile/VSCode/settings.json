@@ -1,0 +1,68 @@
+{
+    // 编辑器
+    "editor.fontSize": 18,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true,
+    },
+    "editor.wordBasedSuggestions": true,
+    "editor.suggestSelection": "first",
+    "editor.fontFamily": "Cascadia Code",
+    // 资源管理器
+    "explorer.autoReveal": false,
+    "explorer.confirmDragAndDrop": false,
+    // 文件
+    "files.autoSave": "onFocusChange",
+    // 终端
+    "terminal.integrated.fontSize": 20,
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "workbench.colorTheme": "City Lights",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    "extensions.ignoreRecommendations": false,
+
+    /**
+    第三方插件配置
+    */
+    // vim相关自定义配置
+    "vim.easymotion": true,
+    "vim.easymotionMarkerHeight": 24,
+    "vim.leader": "\\",
+    "vim.foldfix": true,
+    "vim.sneak": true,
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
+    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
+    // leetcode
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.hint.commentDescription": false,
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.hint.setDefaultLanguage": false,
+    // intellicode
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // open in vim
+    "open-in-vim.useNeovim": true,
+
+    /**
+    语言
+    */
+    // Go
+    "go.testFlags": [
+        "-v"
+    ],
+    "go.useLanguageServer": true,
+    // Java
+    "java.configuration.checkProjectSettingsExclusions": false,
+    // Python
+    "python.jediEnabled": false,
+    // PlantUML
+    "plantuml.diagramsRoot": "docs/diagrams/src",
+    "plantuml.exportOutDir": "docs/diagrams/out",
+    "cSpell.userWords": [
+        "wanglei"
+    ],
+}
