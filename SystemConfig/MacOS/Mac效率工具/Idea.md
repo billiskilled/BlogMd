@@ -48,6 +48,32 @@
 
 ## 快捷键
 
+### 快捷键修改（macOS个人定制）
+
+- ctrl+alt+shift+d  --  打开项目
+
+- ctrl+alt+shift+w  --  关闭所有窗口
+- ctrl+alt+shift+o  --  关闭其他窗口
+
+- ctrl+alt+cmd+s  --  实现代码处（Implementations）
+
+- ctrl+alt+cmd+a  --  展示Git Annotation
+
+- shift+F3  --  编辑书签
+
+- ctrl+alt+shift+v  --  Main menu:Tools:Vim Emulator
+
+- ctrl+alt+shift+space  --  Code:complete:Basic
+
+- ctrl+-  --  后退
+- ctrl+shift+-  --  前进
+
+- ctrl+alt+shift+n  --  File:New:Java Class
+
+-- vim
+- ctrl+cmd+alt+r  --  undo
+
+
 ### 快捷键修改（VSCode个人定制）
 
 - IdeaVim中的ctrl类的快捷键都设置为IDE
@@ -88,38 +114,3 @@
 - remove:Select Previous Tab in multi-editor file
 - remove:Lookup Down
 - remove:Lookup Up  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 快捷键修改（macOS个人定制）
-
-- ctrl+alt+shift+w  --  关闭所有窗口
-- ctrl+alt+shift+o  --  关闭其他窗口
-- ctrl+alt+shift+d  --  打开项目
-
-- ctrl+alt+shift+f  --  Fusion:检查禁用依赖
-- ctrl+alt+shift+m  --  Fusion:查询Maven依赖
-
-- ctrl+alt+shift+v  --  Main menu:Tools:Vim Emulator
-
-- ctrl+alt+shift+space  --  Code:complete:Basic
-
-- ctrl+alt+shift+n  --  File:New:Java Class
-
-- ctrl+-  --  后退
-- ctrl+`  --  打开终端
-
--- vim
-- ctrl+cmd+alt+r  --  undo
