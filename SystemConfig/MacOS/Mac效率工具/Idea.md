@@ -11,9 +11,10 @@
   - 依赖：AceJump
 - WakaTime
 - .gitignore
-- VS Code Keymap
 - Rainbow Brackets
 - Key Promoter X
+
+- VS Code Keymap
 
 ### Java相关
 
@@ -27,19 +28,14 @@
 
 ### 待了解
 
-- HighlightBracketPair
+- google java format
 - Thrift Support
-- Git Flow Integration
-- GsonFormat
-- Jindent - Source Code Formatter
-- MetricsReloaded
-- MyBatis Log Plugin
-- MyBatisX
-- PlantUML integration
-- PlantUML2DDL
-- RestfulToolkit
 - Statistic
-- Translation
+- Grep Console
+- Free Mybatis plugin
+
+- MyBatisX
+- HighlightBracketPair
 
 ### 停用
 
@@ -50,10 +46,10 @@
 
 ### 快捷键修改（macOS个人定制）
 
-- ctrl+alt+shift+d  --  打开项目
+- ctrl+alt+cmd+d  --  打开项目
 
-- ctrl+alt+shift+w  --  关闭所有窗口
-- ctrl+alt+shift+o  --  关闭其他窗口
+- ctrl+alt+cmd+w  --  关闭所有窗口
+- ctrl+alt+cmd+o  --  关闭其他窗口
 
 - ctrl+alt+cmd+s  --  实现代码处（Implementations）
 
@@ -68,7 +64,7 @@
 - ctrl+-  --  后退
 - ctrl+shift+-  --  前进
 
-- ctrl+alt+shift+n  --  File:New:Java Class
+- ctrl+alt+cmd+n  --  File:New:Java Class
 
 -- vim
 - ctrl+cmd+alt+r  --  undo
