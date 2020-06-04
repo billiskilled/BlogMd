@@ -20,3 +20,4 @@ brew cask install font-hack-nerd-font
 - 然后修改iTerm2的字体为Hack Nerd Font(忘记如何修改可搜索)
 
 - 参照things/configFile/spaceVim/下的配置文件
+  - 配置文件路径为~/.SpaceVim.d/
