@@ -2,9 +2,9 @@
 
 ## 必备神器
 
-- [Alfred](./Alfred.md)
+- [Alfred](./历史/Alfred.md)
 - [Karabiner](./Karabiner.md)
-- [vim](./vim.md)
+- [vim](./历史/vim.md)
 - [vscode](./vscode.md)
 
 ## 效率工具
