@@ -22,6 +22,6 @@ set ideastatusicon=gray
 set idearefactormode=keep
 
 """ 自己的配置
-"set keep-english-in-normal-and-restore-in-insert
+set keep-english-in-normal-and-restore-in-insert
 """ Map leader to space ---------------------
 let mapleader = " "
