@@ -7,8 +7,6 @@
         "strings": true,
     },
     "editor.wordBasedSuggestions": true,
-    "editor.suggestSelection": "first",
-    "editor.fontFamily": "Cascadia Code",
     // 资源管理器
     "explorer.autoReveal": false,
     "explorer.confirmDragAndDrop": false,
@@ -17,11 +15,9 @@
     // 终端
     "terminal.integrated.fontSize": 20,
     "terminal.integrated.fontFamily": "Hack Nerd Font",
-    "workbench.colorTheme": "City Lights",
-    "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 0,
     "breadcrumbs.enabled": true,
-    "extensions.ignoreRecommendations": false,
+    "extensions.ignoreRecommendations": true,
 
     /**
     第三方插件配置
@@ -29,40 +25,45 @@
     // vim相关自定义配置
     "vim.easymotion": true,
     "vim.easymotionMarkerHeight": 24,
-    "vim.leader": "\\",
+    "vim.leader": " ",
     "vim.foldfix": true,
     "vim.sneak": true,
-    "vim.autoSwitchInputMethod.enable": true,
-    "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
-    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
-    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
+    //"vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
+    //"vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
+    //"vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
+
     // leetcode
     "leetcode.endpoint": "leetcode-cn",
     "leetcode.hint.commentDescription": false,
     "leetcode.hint.configWebviewMarkdown": false,
     "leetcode.hint.commandShortcut": false,
     "leetcode.hint.setDefaultLanguage": false,
-    // intellicode
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     // open in vim
     "open-in-vim.useNeovim": true,
 
     /**
     语言
     */
-    // Go
-    "go.testFlags": [
-        "-v"
-    ],
-    "go.useLanguageServer": true,
-    // Java
-    "java.configuration.checkProjectSettingsExclusions": false,
     // Python
     "python.jediEnabled": false,
-    // PlantUML
-    "plantuml.diagramsRoot": "docs/diagrams/src",
-    "plantuml.exportOutDir": "docs/diagrams/out",
+
     "cSpell.userWords": [
         "wanglei"
     ],
+
+    "editor.fontFamily": "Cascadia Code",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "explorer.confirmDelete": false,
+
+    "vim.easymotionMarkerForegroundColorOneChar": "pink",
+    "vim.easymotionMarkerForegroundColorTwoChar": "red",
+
+    "leetcode.workspaceFolder": "/Users/wanglei163/.leetcode",
+
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+
+    "python.languageServer": "Microsoft",
 }

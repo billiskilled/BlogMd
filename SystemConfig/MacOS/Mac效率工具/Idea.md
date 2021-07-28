@@ -14,22 +14,15 @@
 - Rainbow Brackets
 - Key Promoter X
 
-- VS Code Keymap
-
 ### Java相关
 
 - Lombok
 - Alibaba Java Coding Guidelines
 - Maven Helper
 
-### 公司自己的
-
-- Fusion
-
 ### 待了解
 
 - google java format
-- Thrift Support
 - Statistic
 - Grep Console
 - Free Mybatis plugin
@@ -44,7 +37,7 @@
 
 ## 快捷键
 
-### 快捷键修改（macOS个人定制）
+### 快捷键修改（macOS个人定制：废弃）
 
 - ctrl+alt+cmd+d  --  打开项目
 

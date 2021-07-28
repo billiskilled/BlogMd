@@ -1,15 +1,27 @@
-set nu
-#set relativenumber
-
+""" Plugins  --------------------------------
 set surround
+set multiple-cursors
 set commentary
-
-let mapleader = "\"
-#nmap <leader><leader>s :action KJumpAction<cr>
-#nmap <leader><leader>w :action KJumpAction.Word0<cr>
-#nmap <leader><leader>l :action KJumpAction.Line<cr>
-set ideajoin
-
-set keep-english-in-normal-and-restore-in-insert
-
+set argtextobj
 set easymotion
+set textobj-entire
+set ReplaceWithRegister
+
+""" Plugin settings -------------------------
+let g:argtextobj_pairs="[:],(:),<:>"
+
+""" Common settings -------------------------
+set showmode
+set so=5
+set incsearch
+set nu
+
+""" Idea specific settings ------------------
+set ideajoin
+set ideastatusicon=gray
+set idearefactormode=keep
+
+""" 自己的配置
+"set keep-english-in-normal-and-restore-in-insert
+""" Map leader to space ---------------------
+let mapleader = " "

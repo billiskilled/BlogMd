@@ -1,7 +1,7 @@
 // 将键绑定放在此文件中以覆盖默认值auto[]
 [
     {
-        "key": "ctrl+cmd+alt+w",
+        "key": "ctrl+w",
         "command": "workbench.action.closeAllEditors"
     },
     {
@@ -9,7 +9,7 @@
         "command": "-workbench.action.closeAllEditors"
     },
     {
-        "key": "ctrl+cmd+alt+o",
+        "key": "ctrl+o",
         "command": "workbench.action.closeOtherEditors"
     },
     {
@@ -17,23 +17,19 @@
         "command": "-workbench.action.closeOtherEditors"
     },
     {
-        "key": "ctrl+cmd+alt+e",
-        "command": "workbench.action.toggleMaximizedPanel"
-    },
-    {
-        "key": "ctrl+cmd+alt+v",
+        "key": "ctrl+v",
         "command": "open-in-vim.open"
     },
     {
-        "key": "ctrl+cmd+alt+t",
+        "key": "ctrl+t",
         "command": "leetcode.testSolution"
     },
     {
-        "key": "ctrl+cmd+alt+s",
+        "key": "ctrl+s",
         "command": "leetcode.submitSolution"
     },
     {
-        "key": "ctrl+cmd+alt+z",
+        "key": "ctrl+z",
         "command": "workbench.action.toggleZenMode"
     },
     {
@@ -41,7 +37,7 @@
         "command": "-workbench.action.toggleZenMode"
     },
     {
-        "key": "ctrl+cmd+alt+n",
+        "key": "ctrl+shift+n",
         "command": "code-runner.run"
     },
     {
@@ -49,7 +45,7 @@
         "command": "-code-runner.run"
     },
     {
-        "key": "ctrl+cmd+alt+m",
+        "key": "ctrl+shift+m",
         "command": "code-runner.stop"
     },
     {
@@ -58,15 +54,11 @@
     },
     
     {
-        "key": "ctrl+cmd+alt+r",
-        "command": "git.revertSelectedRanges"
-    },
-    {
-        "key": "ctrl+cmd+alt+a",
+        "key": "ctrl+a",
         "command": "workbench.files.action.showActiveFileInExplorer"
     },
     {
-        "key": "ctrl+cmd+alt+f",
+        "key": "ctrl+f",
         "command": "workbench.files.action.collapseExplorerFolders"
     },
 
@@ -74,14 +66,5 @@
         "key": "ctrl+n",
         "command": "-extension.vim_ctrl+n",
         "when": "editorTextFocus && vim.active && vim.use<C-n> && !inDebugRepl || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
-    },
-
-    {
-        "key": "ctrl+alt+cmd+q",
-        "command": "workbench.view.explorer"
-    },
-    {
-        "key": "shift+cmd+e",
-        "command": "-workbench.view.explorer"
     }
 ]
