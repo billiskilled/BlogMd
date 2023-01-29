@@ -9,7 +9,6 @@
   - 标准模式自动切换英文输入法
 - IdeaVim-EasyMotion
   - 依赖：AceJump
-- WakaTime
 - .gitignore
 - Rainbow Brackets
 - Key Promoter X
@@ -34,6 +33,8 @@
 
 - KJump
   - 和上一个EasyMotion冲突，暂时停用
+- WakaTime
+  - 基本不用，所以不再推荐
 
 ## 快捷键
 

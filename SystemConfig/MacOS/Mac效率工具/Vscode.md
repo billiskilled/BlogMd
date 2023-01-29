@@ -26,7 +26,7 @@
 - LeetCode
 - Vim
 - Open in Vim
-- WakaTime
+- WakaTime（基本不用，所以不再推荐）
 - .gitignore Generator (Piotr Palarz)
 - Rainbow Brackets
 
